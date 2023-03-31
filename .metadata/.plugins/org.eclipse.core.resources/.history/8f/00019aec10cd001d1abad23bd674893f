@@ -1,0 +1,40 @@
+import kr.or.kosa.dto.*;
+
+
+public class CinemaProgram {
+
+	public static void main(String[] args) {
+		String[][] seat = new String[3][5];
+		
+		for(int i=0; i<seat.length; i++) {
+			for(int j=0; j<seat[i].length; j++) {
+				seat[i][j]= "____";
+			}
+		}
+		
+		Cinema c1 = new Cinema(null, 0);
+		Cinema c2 = new Cinema(null, 0);
+		Cinema c3 = new Cinema(null, 0);
+		
+		ViewMenu menu = new ViewMenu();
+		
+		
+		while(true) {
+			int inputValue = menu.displayMenu(c1, c2, c3);
+			switch(inputValue) {
+				case 1:{
+					break;
+				}
+				case 2:{
+					break;
+				}
+				case 3:{
+					break;
+				}
+				case 4:{
+				}
+			}
+		}
+	}
+
+}

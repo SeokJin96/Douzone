@@ -1,0 +1,29 @@
+/*
+ user 사용자 <> provider 제공자
+
+class A {}
+class B {}
+
+관계 : A는 B를 사용합니다.
+
+1. 상속 : A extends B
+2. 포함 : A라는 클래스가 member field로 B를 사용 >> class A {B b;}
+2.1 부분
+
+
+2.2 전체
+
+
+
+
+
+ 
+ */
+public class Ex05_User_Provider {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

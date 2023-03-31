@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="kr.or.kosa.Car"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.PrinterLocation"/>
+    <fullyQualifiedTypeName name="kr.or.kosa.common.Car"/>
+    <fullyQualifiedTypeName name="kr.or.kosa.Fclass"/>
+    <fullyQualifiedTypeName name="kr.or.kosa.NoteBook"/>
+    <fullyQualifiedTypeName name="kr.or.kosa.AirPlane"/>
+    <fullyQualifiedTypeName name="kr.or.kosa.FakeFlowerVendingMachine2.Flower1"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="kr.or.kosa.dto.ViewMenu"/>
+    <fullyQualifiedTypeName name="kr.or.kosa.dto.Cinema"/>
+    <fullyQualifiedTypeName name="javax.xml.crypto.dsig.spec.ExcC14NParameterSpec"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="kr.or.kosa.Cinema"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="TvVcr"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="kr.or.kosa.Emp"/>
+    <fullyQualifiedTypeName name="kr.or.kosa.Pclass"/>
+    <fullyQualifiedTypeName name="Abclass"/>
+    <fullyQualifiedTypeName name="CommandCenter"/>
+</qualifiedTypeNameHistroy>

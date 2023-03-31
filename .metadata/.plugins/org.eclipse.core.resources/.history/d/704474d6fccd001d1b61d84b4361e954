@@ -1,0 +1,19 @@
+
+/*
+
+
+
+1.is ~ a : 은(는) ~ 이다
+2. has ~ a : 은(는) ~ 가지고 있다
+
+ */
+
+
+public class Ex02_Inherit_Composition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

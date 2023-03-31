@@ -1,0 +1,68 @@
+import java.util.Scanner;
+
+class Solution {
+   static int AnswerN = 0;
+   static int N = 10;
+
+   public static void main(String args[]) throws Exception {
+      //System.setIn(new FileInputStream("C:\sample_input.txt"));
+      Scanner sc = new Scanner(System.in);
+      int T = Integer.parseInt(sc.nextLine());      
+
+      for(int test_case = 1; test_case <= T; test_case++) {
+         String[][] board = new String[N][N];
+         N = Integer.parseInt(sc.nextLine());         
+         for (int i = 0 ; i < N ; i++) {
+            board[i] = sc.nextLine().trim().split(" ");
+         }
+
+         int[] xPos = new int[2];
+         for (int i = 0 ; i < N ; i++) {
+            for (int j = 0 ; j < N; j++) {
+               if (board[i][j].equals("X")) {
+                  xPos[0] = i;
+                  xPos[1] = j;
+               }
+            }
+         }
+         
+         String line = "";
+         for (int i = xPos[0]-1 ; i >= 0 ; i--) {
+            line += board[i][xPos[1]];
+         }
+         AnswerN = count(line);
+         line = "";
+         for (int i = xPos[0]+1 ; i < N ; i++) {
+            line += board[i][xPos[1]];
+         }
+         AnswerN += count(line);
+         line = "";
+         for (int j = xPos[1]+1 ; j < N ; j++) {
+            line += board[xPos[0]][j];
+         }
+         AnswerN += count(line);
+         line = "";
+         for (int j = xPos[1]-1 ; j >=0 ; j--) {
+            line += board[xPos[0]][j];
+         }
+         AnswerN += count(line);
+         System.out.println("#"+test_case+" "+AnswerN);
+      }
+         
+      
+   }
+   
+   public static int count(String line) {
+      int answer = 0 ;
+      if (line.indexOf("Y") > 0) {
+         line = line.substring(0,line.indexOf("Y"));
+      } else if (line.indexOf("Y") == 0) {return 0;}
+      char[] temp = line.toCharArray();
+      for (int i = 0 ; i < temp.length ; i++) {
+         if(temp[i] == 'H') {answer ++;}
+      }
+      if (answer >= 2 ) { return 1;}
+      else { return 0; }
+   }
+   
+}

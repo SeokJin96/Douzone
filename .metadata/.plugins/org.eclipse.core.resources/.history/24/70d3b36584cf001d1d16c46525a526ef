@@ -1,0 +1,18 @@
+/*
+ 	인터페이스 : 약속, 규칙, 규약, 표준
+ 	설계 최상위 단계
+ 	초급 계발자 : 인터페이스 사용방법
+ 	구현부가 없어요 (추상자원)
+ 	---------------------------------
+ 	추상 클래스와 인터페이스
+ 	
+ 	
+ */
+public class Ex03_Interface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

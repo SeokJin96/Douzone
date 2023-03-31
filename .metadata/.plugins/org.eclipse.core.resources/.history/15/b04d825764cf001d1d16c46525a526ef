@@ -1,0 +1,25 @@
+package kr.or.kosa;
+
+/*
+ 디자인 패턴 (생성에 관련된 이야기) >> new 
+ 
+싱글톤 : 객체 하나를 만들어서 공유하겠다.
+의도 : 하나의 객체를 공유하는 보장성 코드를 만들어라
+
+
+ Singleton s1 = new singleton();
+ Singleton s2 = new singleton();
+ Singleton s3 = new singleton();
+
+공유프린터
+공유 IP
+ */
+
+
+
+
+public class Singleton {
+	private Singleton() {
+		//생성자의 접근자를 private으로 했기 때문에 생성차를 호출하지 못해서 객채  new 하지 못하게...
+	}
+}

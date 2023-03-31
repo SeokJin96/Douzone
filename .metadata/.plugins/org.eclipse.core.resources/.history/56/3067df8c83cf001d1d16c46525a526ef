@@ -1,0 +1,14 @@
+/*
+ 	인터페이스 : 약속, 규칙, 규약, 표준
+ 	
+ 	
+ 	
+ */
+public class Ex03_Interface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

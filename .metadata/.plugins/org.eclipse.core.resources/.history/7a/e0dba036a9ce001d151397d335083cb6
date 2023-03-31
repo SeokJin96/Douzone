@@ -1,0 +1,18 @@
+/*
+ private
+ default
+ public
+ 상속관계에서의 (protected)
+ */
+
+
+
+
+public class Ex08_Inherit_Protected {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

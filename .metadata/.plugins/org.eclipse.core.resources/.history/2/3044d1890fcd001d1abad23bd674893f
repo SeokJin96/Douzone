@@ -1,0 +1,24 @@
+package kr.or.kosa.dto;
+
+import java.util.Scanner;
+
+public class ViewMenu {
+	
+	
+	
+	public int displayMenu(Cinema c1,Cinema c2,Cinema c3) {
+		int inputValue=0;
+		 do{
+			System.out.println("******************");
+			System.out.println("****영화 예매 시스템****");
+			System.out.println("******************");
+			System.out.println("1. 예매하기");
+			System.out.println("2. 예매조회");
+			System.out.println("3. 예매취소");
+			
+			Scanner sc = new Scanner(System.in);
+			inputValue= Integer.parseInt(sc.nextLine());
+		}while(true);
+		 return inputValue;
+	}
+}

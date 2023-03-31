@@ -1,0 +1,28 @@
+class Unit2{
+	int hitpoint;
+	final int MAX_HP;
+	Unit2(int hp){
+		this.MAX_HP = hp;
+	}
+}
+//인터페이스
+//~할 수 있는 (수리할 수 있는)
+interface irepairable{}
+
+//지상유닛, 공중유닛, 건물
+class GroundUnit extends Unit2{
+
+	GroundUnit(int hp) {
+		super(hp);
+		
+	}
+	
+}
+public class Ex04_Interface_Poly {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

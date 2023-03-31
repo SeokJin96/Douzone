@@ -1,0 +1,26 @@
+class Ssystem{
+	
+
+	
+}
+
+class print{
+	//println()
+}
+
+public class Ex14_Quiz {
+
+	public static void main(String[] args) {
+		System.out.println("이건 어떻게 구현된 함수일까요");
+		
+		
+		//System
+		//out
+		//println
+		//을 구현해 보세요
+		
+		
+		
+	}
+
+}

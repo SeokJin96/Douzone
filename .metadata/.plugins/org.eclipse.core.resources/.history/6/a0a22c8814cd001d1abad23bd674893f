@@ -1,0 +1,62 @@
+import kr.or.kosa.dto.*;
+
+
+public class CinemaProgram {
+
+	public static void main(String[] args) {
+		
+		
+	
+		
+		Cinema c1 = new Cinema(null, 0);
+		Cinema c2 = new Cinema(null, 0);
+		Cinema c3 = new Cinema(null, 0);
+		
+		ViewMenu menu = new ViewMenu();
+		
+		
+		while(true) {
+			int inputValue = menu.displayMenu(c1, c2, c3);
+			switch(inputValue) {
+				case 1:{
+					buy_ticket(inputValue);
+					break;
+				}
+				case 2:{
+					buy_ticket(inputValue);
+					break;
+				}
+				case 3:{
+					cancle_ticket(inputValue);
+					break;
+				}
+				case 4:{
+				}
+			}
+		}
+	}
+
+	private static void cancle_ticket(int inputValue) {
+		
+		
+	}
+
+	private static void buy_ticket(int inputValue) {
+		String[][] seat = new String[3][5];
+		for(int i=0; i<seat.length; i++) {
+			for(int j=0; j<seat[i].length; j++) {
+				seat[i][j]= "i + j";
+			}
+		}
+		
+		
+		for(int i=0; i<seat.length; i++) {
+			for(int j=0; j<seat[i].length; j++) {
+				System.out.printf("[%s]", seat[i][j].equals("____") ? "좌석" : "예매");
+			}
+			System.out.println();
+		}
+		
+	}
+
+}

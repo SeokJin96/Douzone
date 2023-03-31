@@ -1,0 +1,39 @@
+import java.util.Scanner;
+import java.io.FileInputStream;
+class Solution {
+	static int AnswerN;
+	static int N = 10;
+
+	public static void main(String args[]) throws Exception {
+		//System.setIn(new FileInputStream("C:\sample_input.txt"));
+		Scanner sc = new Scanner(System.in);
+
+		int T = sc.nextInt();
+
+		for(int test_case = 1; test_case <= T; test_case++) {
+			N = sc.nextInt();
+			System.out.println("#"+test_case+" "+AnswerN);
+			
+		}
+		
+		
+
+		String [][] arr = new String[N][N];
+		char x = 'X';
+		char y = 'Y';
+		char h = 'H';
+		char l = 'L';
+		
+		for(int i = 0 ; i < arr.length ; i++) {
+			for(int j = 0 ; j < arr[i].length ; j++) {
+				arr[i][j]="__"; 
+			}
+		}
+		
+		for (int[] value : arr) {
+			for(int value2 : value) {
+				System.out.println(value2);
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+
+public class Ex09_Array_Cinema {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[][] seat = new String[3][5];
+		
+		/*
+		  	[]	[]	[]	[]	[]
+		  	[]	[]	[]	[]	[]
+		  	[]	[]	[]	[]	[]
+		 
+		 */
+		
+		for(int i=0; i<seat.length; i++) {
+			for(int j=0; j<seat[i].length; j++) {
+				//좌석을 초기화
+				seat[i][j]= "____"; //	빈 의자 배치
+			}
+		}
+		
+		//예매
+		seat[2][1] = "홍길동";
+		seat[0][0] = "김유신";
+		
+		//좌석현황
+		for(int i=0; i<seat.length; i++) {
+			for(int j=0; j<seat[i].length; j++) {
+				System.out.printf("[%s]", seat[i][j].equals("____") ? "____" : "예매");
+			}
+			System.out.println();
+		}
+	}
+
+}

@@ -1,0 +1,84 @@
+package kr.or.kosa.dto;
+
+import java.util.Scanner;
+
+
+public class Cinema {
+	
+	public String[][] seat;
+	
+	public int inputValue = 0;
+	
+	public Cinema(int row, int col) {
+	      this.seat = new String[row][col];
+	      for (int i = 0 ; i < row ; i++) {
+	         for (int j = 0 ; j < col ; j++) {
+	            this.seat[i][j] = (i+1)+"-"+(j+1);
+	         }         
+	      }
+	      
+
+	   }
+	
+	public int show_view() {
+		System.out.println("****************");
+		System.out.println("****영화예매 시스템***");
+		System.out.println("****************");
+		System.out.println("1. 예매하기");
+		System.out.println("2. 예매조회");
+		System.out.println("3. 예매취소");
+		return inputValue();
+	}
+	
+	public int inputValue() {
+		Scanner sc = new Scanner(System.in);
+		this.inputValue = sc.nextInt();
+		return this.inputValue;
+	}
+				
+	public void showSeat(String[][] seat){
+		System.out.println("*****좌석현황*****");
+			for(int i = 0 ; i < seat.length ; i++) {
+				for(int j = 0 ; j < seat[i].length ; j++) {
+					System.out.printf("[%s]",seat[i][j]);
+				}
+				System.out.println();
+			}
+			
+		}
+	
+	
+	
+	public void run() {
+		boolean runState = true;
+		do {
+			try {
+				switch(show_view()) {
+				case 1 : {
+					showSeat(seat);
+				}
+				}
+			}catch(Exception e){
+				
+			}
+			
+			
+			
+			
+			
+			
+		}while(runState);
+		
+		
+		
+}
+	
+	
+	
+	
+	
+	
+}
+	
+	
+

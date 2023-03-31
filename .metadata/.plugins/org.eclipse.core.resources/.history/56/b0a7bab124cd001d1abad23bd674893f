@@ -1,0 +1,8 @@
+
+public class CinemaProgram {
+
+	public static void main(String[] args) {
+		
+		Cinema c1 = new Cinema();
+	}
+}

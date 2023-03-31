@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Main{
+	public static void main(String[] args) {
+		String siteId = "joonas";
+		Scanner sc = new Scanner(System.in);
+		String id = sc.nextLine();
+		
+		if(siteId.equals(id)) {
+			System.out.println(id+"??!");
+		}
+	}
+}
+
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Ex13_Inherit_KeyPoint&apos; to &apos;KeyPoint&apos;&#x0D;&#x0A;- Original project: &apos;JAVA_04&apos;&#x0D;&#x0A;- Original element: &apos;Ex13_Inherit_KeyPoint&apos;&#x0D;&#x0A;- Renamed element: &apos;KeyPoint&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Ex13_Inherit_KeyPoint&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Ex13_Inherit_KeyPoint.java[Ex13_Inherit_KeyPoint" matchStrategy="1" name="KeyPoint" qualified="false" references="true" similarDeclarations="false" stamp="1680221313337" textual="false" version="1.0"/>
+</session>

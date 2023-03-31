@@ -1,0 +1,24 @@
+class Human{
+	String name;
+}
+class OverCalss{
+	int add(int i, int j) {
+		return i+j;
+	}
+	
+	void add(Human human) { //Human 타입의 주소값을 넣어주면 되는구나 add(new Human())
+		System.out.println(human.name);
+	}
+	//1. add(new Human());
+	//2. Human h = new Human(); add(h);
+	//반드시 해야 한다.
+	
+}
+public class Ex06_Array_Method {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

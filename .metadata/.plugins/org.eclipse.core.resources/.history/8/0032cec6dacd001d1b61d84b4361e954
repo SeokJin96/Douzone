@@ -1,0 +1,74 @@
+import java.util.Scanner;
+
+public class CodingTest {
+	static int AnswerN;
+	static int N = 10;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.setIn(new FileInputStream("C:\sample_input.txt"));
+				Scanner sc = new Scanner(System.in);
+
+				int T = sc.nextInt();
+
+				
+				for(int test_case = 1; test_case <= T; test_case++) {
+					String [][] arr = new String[N][N];
+					N = sc.nextInt();
+					String x = "X";
+					String y = "Y";
+					String h = "H";
+					String l = "L";
+					
+					arr[0][2]= h;
+					arr[1][2]= h;
+					arr[2][2]= y;
+					arr[3][2]= x;
+					arr[4][2]= l;
+					arr[5][2]= y;
+					arr[6][2]= y;
+					arr[7][2]= l;
+					
+					arr[3][0]=h;
+					arr[3][1]=h;
+					arr[3][3]=l;
+					arr[3][4]=l;
+					arr[3][5]=l;
+					arr[3][6]=h;
+					arr[3][7]=h;
+
+					for(int i=1; i<arr.length; i++) {
+						int count = 0;
+						if(((arr[3-i][2]) == h) && ((arr[3+i][2]) == h)) {
+							if(((arr[3-i+1][2]) == h) && ((arr[3+i+1][2]) == h)) {
+								count+=1;
+							}
+						}
+					}
+						
+					System.out.println("#"+test_case+" "+AnswerN);		
+				}
+
+				String [][] arr = new String[N][N];
+				String x = "X";
+				String y = "Y";
+				String h = "H";
+				String l = "L";
+				
+				for(int i = 0 ; i < arr.length ; i++) {
+					for(int j = 0 ; j < arr[i].length ; j++) {
+						if(arr[2][3] == x) {
+							arr[i][j]=l;
+						}
+						arr[0][0]=y;
+					}
+				}
+				
+				for (String[] value : arr) {
+					for(String value2 : value) {
+						System.out.println(value2);
+					}
+				}
+	}
+
+}

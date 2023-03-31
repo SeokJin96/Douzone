@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Inherit_super&apos; to &apos;Ex06_Inherit_super&apos;&#x0D;&#x0A;- Original project: &apos;JAVA_BASIC_04_OOP&apos;&#x0D;&#x0A;- Original element: &apos;Inherit_super&apos;&#x0D;&#x0A;- Renamed element: &apos;Ex06_Inherit_super&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Inherit_super&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Inherit_super.java[Inherit_super" matchStrategy="1" name="Ex06_Inherit_super" qualified="false" references="true" similarDeclarations="false" stamp="1680143539357" textual="false" version="1.0"/>
+</session>

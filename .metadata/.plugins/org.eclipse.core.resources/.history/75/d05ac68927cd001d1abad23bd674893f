@@ -1,0 +1,26 @@
+
+public class Ex03_finally {
+
+		static void copyFiles() {
+			System.out.println("copy Files");
+		}
+		
+		static void startInstall() {
+			System.out.println("Install...");
+		}
+		
+		static void fileDelete() {
+			System.out.println("file Delete");
+		}
+		
+		/*
+		 예외가 발생 ... 정말 0/0, index 범위..
+		 "홍길동" 입력되면 예외
+		 
+		 
+		 */
+		
+		public static void main(String[] args) {
+
+		}
+}

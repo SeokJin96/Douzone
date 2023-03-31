@@ -1,0 +1,10 @@
+package kr.or.kosa.dto;
+
+
+public class ViewMenu {
+	
+	public void show_view() {
+		
+	}
+
+}

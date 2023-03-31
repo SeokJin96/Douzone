@@ -1,0 +1,20 @@
+class Human{
+	String name;
+}
+class OverCalss{
+	int add(int i, int j) {
+		return i+j;
+	}
+	
+	void add(Human human) { //
+		System.out.println(human.name);
+	}
+}
+public class Ex06_Array_Method {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

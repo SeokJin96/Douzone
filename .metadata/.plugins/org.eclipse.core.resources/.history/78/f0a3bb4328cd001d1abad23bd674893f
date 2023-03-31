@@ -1,0 +1,41 @@
+import java.io.IOException;
+
+public class Ex03_finally {
+
+		static void copyFiles() {
+			System.out.println("copy Files");
+		}
+		
+		static void startInstall() {
+			System.out.println("Install...");
+		}
+		
+		static void fileDelete() {
+			System.out.println("file Delete");
+		}
+		
+		/*
+		 예외가 발생 ... 정말 0/0, index 범위..
+		 "홍길동" 입력되면 예외.. 개발자가 필요에 의해서 어떤 상황을 예외적인 상황이라고 정의 가능
+		 >>사용자 정의 예외 처리<<
+		 throw new IOException
+		 
+		 */
+		
+		public static void main(String[] args) {
+				copyFiles();
+				startInstall();
+				fileDelete();
+				
+				try {
+					copyFiles();
+					startInstall();
+					throw new IOException("Install 도중 문제 발생.....");
+				}catch(Exception e) {
+					System.out.println("예외 발생 : " + e.getMessage());
+				}finally {
+					//강제 실행 블럭
+					fileDelete();
+				}
+		}
+}

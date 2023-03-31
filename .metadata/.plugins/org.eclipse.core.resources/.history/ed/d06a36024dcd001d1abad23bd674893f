@@ -1,0 +1,46 @@
+package kr.or.kosa.dto;
+
+import java.util.Scanner;
+
+
+public class Cinema {
+	
+	public String[][] seat;
+	
+	public int inputValue;
+	
+	
+	
+	public int show_view() {
+		System.out.println("****************");
+		System.out.println("****영화예매 시스템***");
+		System.out.println("****************");
+		System.out.println("1. 예매하기");
+		System.out.println("2. 예매조회");
+		System.out.println("3. 예매취소");
+		return inputValue();
+	}
+	
+	public int inputValue() {
+		Scanner sc = new Scanner(System.in);
+		this.inputValue = sc.nextInt();
+		return this.inputValue;
+	}
+				
+				
+	
+	
+	
+	public void run() {
+		
+	}
+	
+	
+	
+	
+	
+	
+}
+	
+	
+

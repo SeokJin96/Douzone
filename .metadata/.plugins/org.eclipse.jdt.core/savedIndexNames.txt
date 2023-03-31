@@ -1,0 +1,13 @@
+INDEX VERSION 1.131+C:\Duzone\JAVA\Labs\.metadata\.plugins\org.eclipse.jdt.core
+3961881473.index
+1503732156.index
+298304950.index
+2115653635.index
+2105603019.index
+1413266270.index
+1865797976.index
+1957691506.index
+1667593761.index
+4196963002.index
+1457507109.index
+1312646374.index
