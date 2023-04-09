@@ -1,0 +1,12 @@
+
+public class Ex01_Println {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World"); // 오승환 작성
+		//브랜치 osh에서 작성
+		System.out.println("I'm fine. Thank you. And you"); // 우나은 작성 @main
+        //브랜치 naeun에서 작성5//stash test
+		System.out.println("I like house MGR"); // nylonmusk 
+	}
+
+}
